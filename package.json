@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build-storybook-pages": "build-storybook -o docs-build -s ./stories/assets",
+    "build-storybook-pages": "build-storybook -o docs-build",
     "chromatic": "npx chromatic --project-token=e5b41ae1da99"
   },
   "dependencies": {
