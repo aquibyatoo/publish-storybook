@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=e5b41ae1da99"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -30,5 +31,7 @@
     "chromatic": "^6.17.1",
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "public-story-book@0.0.0"
 }
