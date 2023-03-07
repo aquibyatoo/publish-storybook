@@ -16,7 +16,6 @@ jobs:
         uses: aquibyatoo/github-pages-deploy-action@v4
         with:
           branch: master
-          folder: docs-build
+          folder: ./docs-build
           clean: false
           single-commit: true
-          target-folder: docs
